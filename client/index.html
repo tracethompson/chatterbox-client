@@ -17,16 +17,19 @@
     <div id="main">
       <h1>chatterbox</h1>
 
-      
-
-
-      Message:<input type="text" id="input">
-      <button type="button" id="postMessage">Send Message</button>
-      Current Room:
-      <select id="roomSelect">
-        <!--<option value="all">All</option>-->
-      </select>
-
+      <div class="messageInput">
+        Message:
+        <input type="text" id="input">
+        <button type="button" id="postMessage">Send Message</button>
+      </div>
+      <div class="roomSelect">
+        Current Room:
+        <select id="roomSelect">
+          <option value="all">All</option>
+        </select>
+        New Room:
+        <input type="text" id="newRoom">
+      </div>
       <ul id="chats"></ul>
     </div>
   </body>
